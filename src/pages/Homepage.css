@@ -1,0 +1,23 @@
+.homepage{
+    padding: 1rem;
+}
+
+.homepage > h1 {
+    color: #1547e8;
+}
+
+.homepage > .subtitle {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.movies-grid {
+    display: grid;
+    grid-template-columns: repeat(1,600px) ;
+    gap: 0.5rem;
+}
+
+.movie-card {
+    border: 1px solid gray;
+    padding: 1rem;
+}
